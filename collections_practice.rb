@@ -15,6 +15,6 @@ def sort_array_char_count(arr)
   end
 end
 
-arr = ['string','string2']
+arr = ['string2','string','string22']
 
 sort_array_char_count(arr)
