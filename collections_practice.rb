@@ -20,3 +20,7 @@ def swap_elements(arr, index, destination_index)
   arr[index], arr[destination_index] = arr[destination_index], arr[index]
   arr
 end
+
+def reverse_arr(arr)
+  arr.reverse
+end
