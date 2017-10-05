@@ -1,7 +1,7 @@
 
 def sort_array_asc(arr)
   arr.sort do |a, b|
-    b <=> a
+    a <=> b
   end
   arr
 end
@@ -15,6 +15,6 @@ def sort_array_asc2(arr)
       1
     elsif a > b
       -1
-    end      
+    end
   end
 end
