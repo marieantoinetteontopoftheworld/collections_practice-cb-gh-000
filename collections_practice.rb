@@ -14,7 +14,3 @@ def sort_array_char_count(arr)
     a.length <=> b.length
   end
 end
-
-arr = ['string2','string','string22']
-
-sort_array_char_count(arr)
