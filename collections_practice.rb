@@ -35,3 +35,10 @@ def find_a(arr)
     item.start_with?("a")
   end
 end
+
+def sum_array(arr)
+  sum = 0
+  arr.each do |num|
+    sum+=num
+  end
+end
