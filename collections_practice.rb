@@ -14,3 +14,7 @@ def sort_array_char_count(arr)
     a.length > b.length
   end
 end
+
+arr = ['string','string2']
+
+sort_array_char_count(arr)
